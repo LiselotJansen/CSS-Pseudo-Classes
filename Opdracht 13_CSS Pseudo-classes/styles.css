@@ -1,0 +1,51 @@
+.blue:hover {
+    color:lightblue;
+    font-weight: bold;
+}
+
+.red:active {
+    color:red;
+    font-style: oblique;
+}
+
+.yellow:visited {
+    color: yellow;
+}
+
+form input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+.deel2 {
+    margin-top: 40px;
+}
+
+.deel2 ul{
+    padding-left: 0;
+    background-color: darkblue;
+    color: white;
+}
+
+.deel2 li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.currentPage {
+    background-color: rgb(153, 166, 192);
+}
+
+/* PSEUDO-CLASSES */
+
+.deel2 li:hover{
+    background-color: lightblue;
+}
+
+.deel2 a:visited {
+    color: lightgrey;
+}
+
+.deel2 input:focus {
+    border:3px solid aqua;
+}
